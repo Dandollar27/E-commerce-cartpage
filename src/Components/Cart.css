@@ -1,0 +1,231 @@
+.CartBody{
+    width: 100%;
+    height: 85vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+
+    .CartBodyL{
+        width: 60%;
+        height: 85vh;
+
+        .CartBodyLT{
+            width: 100%;
+            height: 30%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+
+            .CartBodyLTH1{
+                font-size: 25px;
+            }
+
+            .CartBodyLTDiv{
+                width: 90%;
+                height: 25%;
+                background-color: lightgreen;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 100px;
+
+                .CartBodyLTDivH{
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .CartBodyLD{
+            width: 100%;
+            height: 70%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+
+            .CartBodyLDCont{
+                width: 90%;
+                height: 90%;
+                border-radius: 15px;
+                border: solid;
+                border-width: 1px;
+                border-color: gray;
+                display: flex;
+
+                .CartBodyLDContL{
+                    width: 50%;
+                    height: 100%;
+
+                    .CartBodyLDContLUp{
+                        width: 100%;
+                        height: 40%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 15%;
+
+                        .CartBodyLDContLUpImg{
+                            width: 35%;
+                        }
+
+                        .CartBodyLDContLUpH1{
+                            font-size: 20px;
+
+                            .CartBodyLDContLUpS{
+                                color: red;
+                            }
+                        }
+                    }
+
+                    .CartBodyLDContLDown{
+                        width: 100%;
+                        height: 60%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        padding-left: 10px;
+                        gap: 20px;
+
+                        .CartBodyLDContLDownH1{
+                            font-size: 20px;
+                        }
+
+                        .CartBodyLDContLDownDiv{
+                            width: 60%;
+                            height: 20%;
+                            display: flex;
+                            align-items: flex-start;
+                            justify-content: space-between;
+
+                            .CartBodyLDContLDownDivBtn1{
+                                width: 20%;
+                                height: 90%;
+                                font-size: 30px;
+                                border: solid;
+                                border-width: 1px;
+                                border-radius: 8px;
+                                background-color: white;
+                            }
+
+                            .CartBodyLDContLDownDivH2{
+                                width: 20%;
+                                height: 90%;
+                                font-size: 20px;
+                                padding-left: 12px;
+                                padding-top: 3px;
+                                border: solid;
+                                border-radius: 8px;
+                                border-width: 1px;
+                            }
+
+                            .CartBodyLDContLDownDivBtn2{
+                                width: 20%;
+                                height: 90%;
+                                font-size: 30px;
+                                border: solid;
+                                border-width: 1px;
+                                border-radius: 8px;
+                                background-color: white;
+                            }
+                        }
+
+                        .CartBodyLDContLDownBtn{
+                            width: 60%;
+                            height: 30%;
+                            font-size: 20px;
+                            color: white;
+                            border: none;
+                            background-color: green;
+                            border-radius: 50px;
+                        }
+                    }
+                }
+
+                .CartBodyLDContR{
+                    width: 50%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction:row;
+                    justify-content: space-evenly;
+                    align-items: center;
+
+                    .CartBodyLDContRDiv{
+                        width: 100%;
+                        height: 50%;
+                        display: flex;
+                        background-color: green;
+                    }
+
+                    .CartBodyLDContRBtn{
+                        width: 50%;
+                        height: 20%;
+                        border-radius: 50px;
+                    }
+
+                    button{
+                        background-color:rgb(139, 233, 139);
+                        padding: 2%;
+                        font-size: 15px;
+                        border-radius: 30vh;
+                        border: none;
+                    }
+
+                }
+            }
+        }
+    }
+
+     .CartBodyR{
+        width: 100vh;
+        height: 85vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+     .CartBodyR{
+    display:flex;
+    justify-content:center;
+
+    } 
+    .Pointer{
+        background-color:rgb(116, 250, 116);
+        padding: 2%;
+       font-size: 15px;
+       border-radius: 30vh;
+       border: none; 
+       margin: 30px;
+       
+
+    }
+}
+.Suprise{
+    display: flex;
+    height: 20%;
+    width: 20%;
+    gap: 100px;
+
+}
+.measure{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.policy{
+display:flex;
+align-items: flex-start;
+gap: 10px;
+font-size: 14px;
+
+
+policy input{
+    width:16px;
+    height: 16px;
+    cursor:pointer;
+}
+}
+.policy-link{
+    color:orange;
+}

@@ -1,0 +1,22 @@
+import React, { useContext } from 'react'
+import './product.css'
+import { AppContext } from '../context/AppContext'
+
+import { useNavigate } from 'react-router-dom'
+
+const Productcard = ({product}) => {
+  const {dispatch} = useContext(AppContext)
+  const nav = useNavigate();
+  return (
+    <div className='cardCont' >
+      <section className='contDiv'>
+        <img onClick={() => nav(`/details/${product.id}`)} src={product?.images} alt="imgCard" />
+      </section>
+      <h2>{product?.title}</h2>
+      <span>${product?.price}</span>
+      <button onClick={()=> dispatch({type:"Add_To_Cart", payload:product})}>Add to cart</button>
+    </div>
+  )
+}
+
+export default Productcard

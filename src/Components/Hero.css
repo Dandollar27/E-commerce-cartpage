@@ -1,0 +1,34 @@
+.hero{
+background-color: rgb(105, 223, 105);
+width: 100%;
+height: 70vh;
+margin:0%;
+}
+.main_hero{
+    width: 90%;
+    height: 100%;
+    display: flex;
+}
+.text{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn5{
+    background-color: rgb(72, 247, 72);
+    height: 50px;
+    width: 30%;
+    }
+.right_hero {
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+      }
+      .right_hero img{
+        height: 100%;
+        width: 100%;
+      }
