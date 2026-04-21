@@ -2,6 +2,8 @@ import React, { useContext } from 'react'
 import "./Header.css"
 import { useNavigate } from 'react-router-dom'
 import {AppContext} from "../context/AppContext"
+
+
 const Header = () => {
   const nav = useNavigate();
   const {cart} = useContext(AppContext)

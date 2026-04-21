@@ -1,11 +1,12 @@
 import React from 'react'
-import Store from '../Components/Store'
+
+import CheckupList from '../Components/CheckupList'
 
 const Storepage = () => {
   return (
     <div>
-      <Store/>
       <Cart/>
+      <CheckupList/>
     </div>
   )
 }

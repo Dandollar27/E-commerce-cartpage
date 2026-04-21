@@ -19,7 +19,7 @@ const AppProvider = ({children}) => {
                     return[...state]; 
                 }
             }
-        case "Remove_from_cart":
+        case "REMOVE_FROM_CART":
           return state.filter(item => item.id !== action.payload);
           default:
             return state;
