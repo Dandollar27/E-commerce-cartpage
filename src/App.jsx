@@ -16,7 +16,8 @@ function App() {
         <Route path="/details/:id" element={<Detailspage/>}/>
       {/* <Route path="/"  element={<CheckupList/>}/> */}
        <Route path="/Cart" element={<Cart />} /> 
-      </Routes>
+       <Route path="/Home" element={<Landingpage />} />
+      </Routes> /
     </BrowserRouter>
   );
 }

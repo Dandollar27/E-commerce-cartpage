@@ -11,10 +11,10 @@ const Productcard = ({product}) => {
     <div className='cardCont' >
       <section className='contDiv'>
         <img onClick={() => nav(`/details/${product.id}`)} src={product?.images} alt="imgCard" />
-      </section>
+      </section>y3
       <h2>{product?.title}</h2>
       <span>${product?.price}</span>
-      <button onClick={()=> dispatch({type:"Add_To_Cart", payload:product})}>Add to cart</button>
+      <button onClick={()=> dispatch({type:"ADD_TO_CART", payload:product})}>Add to cart</button>
     </div>
   )
 }

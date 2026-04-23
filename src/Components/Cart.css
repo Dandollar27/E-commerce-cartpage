@@ -212,3 +212,32 @@
   font-weight: 600;
   cursor: pointer;
 }
+.Empty_cart{
+color: red;
+display:flex;
+justify-content: center;
+align-items: center;
+padding: 10%;
+font-size:50px;
+}
+
+.Suggest_cart{
+  color: blue;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  font-size:15px;
+
+}
+.GO_Back{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding:50px;
+  font-size: 30%; 
+}
+.Main_button{
+  background-color:green;
+  color:white;
+}
